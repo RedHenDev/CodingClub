@@ -12,7 +12,7 @@ let goingDown = true;
 // Preload function, to load image of fox.
 function preload(){
  
-  rendardVisage = loadImage("fox.png");
+  renardVisage = loadImage("fox.png");
   
 }
 
