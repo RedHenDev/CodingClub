@@ -1,10 +1,20 @@
 // Un animal domestique!
 // (Renard).
 
+// Variable to store image of fox (made by Lara).
+let renardVisage;
+
 let cX = 0;
 let cY = 0;
 
 let goingDown = true;
+
+// Preload function, to load image of fox.
+function preload(){
+ 
+  rendardVisage = loadImage("fox.png");
+  
+}
 
 function setup(){
   createCanvas(400, 400); 
@@ -44,6 +54,10 @@ function doTheCirclePlease(){
   ellipse(cX, 
          cY,
          200);
+  
+  // Add fox over circle...
+  image(renardVisage, cX, cY, 100,100);
+  
 }
 
 
