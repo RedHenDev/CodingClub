@@ -30,11 +30,11 @@ function draw(){
   background(100,55,20);
   
   if (goingDown == true){
-  cY = cY + 10;
+  cY = cY + 1;
   }
   
   if (goingDown == false){
-    cY = cY - 10;
+    cY = cY - 1;
   }
   
   // If too low...
